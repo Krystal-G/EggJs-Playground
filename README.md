@@ -60,7 +60,7 @@
 * **while**
 	* <ins>Description</ins> :-  Defines a while loop with condition and a loop body
 	* <ins>Example</ins>  :-  _while(>(x,0), do(print(x), set(x, -(x,1))))_
-	* 
+
 * **func**
 	* <ins>Description</ins>  :-  Defines a function with arguments and a body. Arguments are separated by commas and the last expression is body
 	* <ins>Example</ins>  :-  _func(a,b,print(+(a,b)))_
