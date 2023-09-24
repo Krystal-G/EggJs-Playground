@@ -4,12 +4,13 @@
 
 ### Screenshots 
 ---
+![Main](https://github.com/Krystal-G/EggJs-Playground/assets/76404613/a4716ba8-1e65-470a-b772-8d5721de9ff0)
+![Code](https://github.com/Krystal-G/EggJs-Playground/assets/76404613/a0181e3d-c6c4-4035-af4d-3cd9c029cf73)
+![ParseTree](https://github.com/Krystal-G/EggJs-Playground/assets/76404613/d42df315-fa38-49a0-a3de-676ff5550ac0)
+![Parse Error](https://github.com/Krystal-G/EggJs-Playground/assets/76404613/b39ca5e8-5e9d-4dc2-986e-c16db112a6a9)
+![Compile Error](https://github.com/Krystal-G/EggJs-Playground/assets/76404613/2806bda7-7f9e-4fcc-8768-bf275689240e)
 
-![Main Image](./public/Screnshots/Main.png)
-![Parse Tree](./public/Screnshots/ParseTree.png)
-![Code Editor](./public/Screnshots/Code.png)
-![Parse Error](./public/Screnshots/Parse Error.png)
-![Compile Error](./public/Screnshots/Compile Error.png)
+
 
 
 ### Some Things to Remember :
