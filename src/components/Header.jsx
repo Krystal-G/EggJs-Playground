@@ -10,10 +10,10 @@ const Header = () => {
 
   const handleModalOpen = () => {
     setModal(true);
-  }
+  };
   const handleModalClose = () => {
     setModal(false);
-  }
+  };
 
   return (
     <div
@@ -24,23 +24,31 @@ const Header = () => {
 
         display: "flex",
         justifyContent: "space-between",
-        alignItems: "center"
+        alignItems: "center",
       }}
     >
-      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-evenly" }}>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-evenly",
+        }}
+      >
         <EggIcon sx={{ color: "#EEEEEE", marginLeft: "10px" }} />
         <Typography variant="h5" sx={{ color: "#EEEEEE", marginLeft: "10px" }}>
           EggJs Playground
         </Typography>
       </div>
-      <div style={{display: "flex"}}>
+      <div style={{ display: "flex" }}>
         <IconButton aria-label="info" onClick={handleModalOpen}>
           <InfoIcon sx={{ color: "#EEEEEE" }} />
         </IconButton>
         <InfoBox open={modal} onClose={handleModalClose} />
-        <IconButton aria-label="mode">
-          <GitHubIcon sx={{ color: "#EEEEEE" }} />
-        </IconButton>
+        <Link href="https://github.com/Krystal-G/EggJs-Playground">
+          <IconButton aria-label="mode">
+            <GitHubIcon sx={{ color: "#EEEEEE" }} />
+          </IconButton>
+        </Link>
       </div>
     </div>
   );
