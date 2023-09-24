@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import EggIcon from "@mui/icons-material/Egg";
-import { IconButton, Typography } from "@mui/material";
+import { IconButton, Link, Typography } from "@mui/material";
 import InfoIcon from "@mui/icons-material/Info";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import InfoBox from "./InfoBox";
